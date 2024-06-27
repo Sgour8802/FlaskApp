@@ -5,7 +5,10 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "app.py" }
-    ]
+    ],
+    "files": [
+        "static/**"
+      ]
   }
 
 
