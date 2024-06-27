@@ -1,0 +1,134 @@
+html {
+    background-color: hsl(0, 0%, 75%);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  li,p,h3 {
+    font-size: 18px;
+  }
+  
+  li {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  header {
+    margin: 10px;
+    padding: 20px;
+    background: hsl(209, 95%, 17%);
+    color: white;
+  }
+  
+  .name {
+    font-size: 35px;
+  }
+  
+  main {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid hsl(209, 95%, 17%);
+    float: left;
+    width: 60%;
+    background-color: white;
+  }
+  
+  .main_section {
+    width: 100%;
+  }
+  
+  .student_image {
+    float: left;
+    display: flex;
+    padding-right: 10px;
+    padding-top: 0;
+    align-items: center;
+    display: block;
+  }
+  
+  img {
+    align-items: left;
+    display: block;
+    border-radius: 2%;
+    width: 150px;
+    height: 150px;
+    border-color: black;
+    border: 1px solid hsl(209, 95%, 17%);
+  }
+  
+  video {
+    width: 100%;
+    border: 1px solid hsl(209, 95%, 17%);
+  }
+  
+  
+  aside {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccccccf7;
+    float: right;
+    width: 33%;
+    border: 1px solid hsl(209, 95%, 17%);
+    background-color: white;
+  }
+  
+  footer {
+    text-align: center;
+    color: #fff;
+    clear: both;
+    margin-top: 20px;
+    padding: 10px;
+    margin: 10px;
+    background: hsl(209, 95%, 17%)
+  }
+  
+  @media screen and (min-width: 1920px) {}
+  
+  @media screen and (max-width: 999px) {
+    body {
+      width: 96%;
+      margin: 30px 2%;
+    }
+  }
+  
+  /* mobile breakpoints */
+  @media screen and (max-width: 767px) {
+  
+    main,
+    aside {
+      float: none;
+      width: auto;
+      margin: 10px;
+      padding: 5px;
+    }
+  
+    main p:last-child {
+      margin-bottom: 0px;
+    }
+  
+    main {
+      padding: 20px;
+    }
+  
+    aside h2:first-child {
+      margin-top: 0px;
+    }
+  
+    .about_student {
+      padding: 5px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .student_image {
+      width: 100%;
+      display: flex;
+      min-height: max-content;
+      padding: 0px;
+    }
+  }
